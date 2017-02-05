@@ -1,0 +1,1 @@
+cmd_/home/vignesh/Desktop/bcm2070a0-bluetooth/btrtl.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/vignesh/Desktop/bcm2070a0-bluetooth/btrtl.ko /home/vignesh/Desktop/bcm2070a0-bluetooth/btrtl.o /home/vignesh/Desktop/bcm2070a0-bluetooth/btrtl.mod.o
