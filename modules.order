@@ -1,3 +1,3 @@
-kernel//home/vignesh/Desktop/bcm2070a0-bluetooth/btusb.ko
-kernel//home/vignesh/Desktop/bcm2070a0-bluetooth/btbcm.ko
-kernel//home/vignesh/Desktop/bcm2070a0-bluetooth/btrtl.ko
+kernel//home/vignesh/bluetooth/btusb.ko
+kernel//home/vignesh/bluetooth/btbcm.ko
+kernel//home/vignesh/bluetooth/btrtl.ko

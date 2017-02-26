@@ -1,5 +1,6 @@
 This is the bluetooth driver/module for *BCM2070A0* extracted from Linux kernel with vendor and device, 0x413c & 0x8143 for linux ( Tested with ubuntu 16.04 ). For other vendor and device id, modify device ids in *btusb.c*. 
 
+    sudo cp BCM20702A1-413c-8143.hcd  /lib/firmware/brcm/BCM20702A1-413c-8143.hcd
 	make -C /lib/modules/$(uname -r)/build M=$PWD clean
 	make -C /lib/modules/$(uname -r)/build M=$PWD
 	sudo v /lib/modules/$(uname -r)/kernel/drivers/bluetooth/btusb.ko /lib/modules/$(uname -r)/kernel/drivers/bluetooth/btusb.ko.bak 
@@ -11,6 +12,7 @@ This is the bluetooth driver/module for *BCM2070A0* extracted from Linux kernel 
 
 DKMS is supported in the module. CD into the cloned directory and perform the following.
 
+    sudo cp BCM20702A1-413c-8143.hcd  /lib/firmware/brcm/BCM20702A1-413c-8143.hcd
     sudo mkdir /usr/src/bcm2070a0-1.0
     sudo cp -r * /usr/src/bcm2070a0-1.0
     sudo dkms add -m bcm2070a0 -v 1.0
